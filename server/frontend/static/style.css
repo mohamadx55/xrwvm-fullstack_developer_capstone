@@ -28,13 +28,13 @@ img{
 }
 .details{
   font-size: 20px;
-  color: rgb(97, 64, 128);
+  color: #00bcd4;
   padding:20px;
 }
 
 .title{
   font-size: 20px;
-  background-color: rgb(97, 64, 128);
+  background-color: #00bcd4;
   color: white;
   text-align: center;
   margin:20px;
@@ -42,7 +42,7 @@ img{
 }
 
 .homepage_links{
-  color:  rgb(97, 64, 128);
+  color:  #00bcd4;
   padding: 25%;
   font-size: larger;
   }
@@ -127,7 +127,7 @@ img{
 
 /* About Page Styles */
 .hero-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
   color: white;
   padding: 80px 0;
   text-align: center;
@@ -186,7 +186,7 @@ img{
 
 .team-card .title {
   font-size: 1.1rem;
-  color: #667eea;
+  color: #00bcd4;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -198,12 +198,12 @@ img{
 }
 
 .team-card .email {
-  color: #667eea;
+  color: #00bcd4;
   font-weight: 500;
 }
 
 .stats-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
   color: white;
   padding: 60px 0;
 }
@@ -239,7 +239,7 @@ img{
 }
 
 .nav-link:hover {
-  color: #667eea !important;
+  color: #00bcd4 !important;
 }
 
 /* Commitment Section */
@@ -264,7 +264,7 @@ img{
 }
 
 .navbar-brand {
-  color: #667eea !important;
+  color: #00bcd4 !important;
   margin: 0 !important;
 }
 
@@ -277,12 +277,12 @@ img{
 }
 
 .nav-link.active {
-  color: #667eea !important;
+  color: #00bcd4 !important;
 }
 
 /* Contact Page Styles */
 .contact-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
   color: white;
   padding: 80px 0;
   text-align: center;
@@ -336,7 +336,7 @@ img{
 }
 
 .contact-icon {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
   color: white;
   width: 60px;
   height: 60px;
@@ -403,7 +403,7 @@ img{
 .contact-form select:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #00bcd4;
 }
 
 .contact-form textarea {
@@ -412,7 +412,7 @@ img{
 }
 
 .submit-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
   color: white;
   border: none;
   padding: 15px 30px;
@@ -426,7 +426,7 @@ img{
 
 .submit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 188, 212, 0.3);
 }
 
 .map-section {
@@ -460,7 +460,7 @@ img{
 
 .map-placeholder i {
   font-size: 4rem;
-  color: #667eea;
+  color: #00bcd4;
   margin-bottom: 20px;
 }
 
@@ -476,7 +476,7 @@ img{
 }
 
 .contact-cta {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
   color: white;
   padding: 80px 0;
 }
@@ -513,7 +513,7 @@ img{
 
 .btn-primary {
   background: white;
-  color: #667eea;
+  color: #00bcd4;
   border: 2px solid white;
 }
 
@@ -531,7 +531,7 @@ img{
 
 .btn-outline:hover {
   background: white;
-  color: #667eea;
+  color: #00bcd4;
   transform: translateY(-2px);
 }
 

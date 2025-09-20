@@ -25,10 +25,17 @@ def get_request(endpoint, **kwargs):
     try:
         # Call get method of requests library with URL and parameters
         response = requests.get(request_url)
-        return response.json()
-    except:
+        print(f"Response status: {response.status_code}")
+        print(f"Response content: {response.text}")
+        if response.status_code == 200:
+            return response.json()
+        else:
+            print(f"Error: {response.status_code}")
+            return []
+    except Exception as e:
         # If any error occurs
-        print("Network exception occurred")
+        print(f"Network exception occurred: {e}")
+        return []
 # def analyze_review_sentiments(text):
 # request_url = sentiment_analyzer_url+"analyze/"+text
 # Add code for retrieving sentiments
