@@ -1,72 +1,128 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <!-- Link the style sheet here -->
-    <link rel="stylesheet" href="/static/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Premium Auto Dealership</title>
+  <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <h2 class="navbar-brand">Premium Auto Dealership</h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            <a class="nav-link" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+            <a class="nav-link active" href="/about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+            <a class="nav-link" href="/contact">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-        <h1>About Us</h1>
-        Welcome to Best Cars dealership, home to the best cars in North America. We deal in sale of domestic and imported cars at reasonable prices.
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
-        </div>
-      </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
+  <div class="hero-section">
+    <div class="container">
+      <h1>About Our Team</h1>
+      <p>At Premium Auto Dealership, we're more than just car salespeople – we're automotive enthusiasts dedicated to helping you find the perfect vehicle. With over 25 years of combined experience in the automotive industry, our team brings expertise, integrity, and genuine care to every customer interaction.</p>
+    </div>
+  </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+  <div class="stats-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Happy Customers</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">200+</div>
+            <div class="stat-label">Cars Sold</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">98%</div>
+            <div class="stat-label">Customer Satisfaction</div>
+          </div>
         </div>
       </div>
     </div>
-    </div>
-    </div>
-    
-</div>
+  </div>
 
+  <div class="team-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=face" alt="Michael Rodriguez">
+            <div class="card-body">
+              <div class="name">Michael Rodriguez</div>
+              <div class="title">General Manager</div>
+              <div class="description">Michael brings 12 years of automotive industry experience to our dealership. He specializes in luxury vehicles and has built lasting relationships with customers throughout the region. His passion for cars and commitment to customer service drives our team's success.</div>
+              <div class="email">michael.rodriguez@premiumauto.com</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="team-card">
+            <img src="https://warburgpincus.com/wp-content/uploads/2019/10/Sarah-Chen-web-1024x991.jpg" alt="Sarah Chen">
+            <div class="card-body">
+              <div class="name">Sarah Chen</div>
+              <div class="title">Sales Director</div>
+              <div class="description">Sarah is our sales expert with a keen eye for matching customers with their perfect vehicle. She holds certifications in automotive sales and customer relations. Her attention to detail and friendly approach make the car buying process smooth and enjoyable for every customer.</div>
+              <div class="email">sarah.chen@premiumauto.com</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="team-card">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=300&fit=crop&crop=face" alt="David Thompson">
+            <div class="card-body">
+              <div class="name">David Thompson</div>
+              <div class="title">Service Manager</div>
+              <div class="description">David oversees our service department with over 8 years of automotive repair experience. He ensures every vehicle on our lot meets the highest standards of quality and safety. His technical expertise and commitment to excellence guarantee that our customers drive away with confidence.</div>
+              <div class="email">david.thompson@premiumauto.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container commitment-section">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Our Commitment to You</h2>
+        <p>
+          We believe that buying a car should be an exciting and stress-free experience. Our team is committed to providing transparent pricing, honest advice, and exceptional customer service. Whether you're looking for a family sedan, a luxury SUV, or a sporty coupe, we'll help you find the perfect vehicle that fits your needs and budget.
+        </p>
+        <p>
+          Visit our showroom today and experience the difference that genuine care and expertise can make in your car buying journey.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
 </html>
